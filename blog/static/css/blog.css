@@ -1,11 +1,28 @@
 .page-header {
-    background-color: #ff9400;
+    background-color: #567552;
+    background: -webkit-linear-gradient(left,#bb7e7e,orange,yellow,#429842,#7c7caa,#9071a6,violet);
+  /* For Opera 11.1 to 12.0 */
+  background: -o-linear-gradient(left,#bb7e7e,orange,yellow,#429842,#7c7caa,#9071a6,violet);
+  /* For Fx 3.6 to 15 */
+  background: -moz-linear-gradient(left,#bb7e7e,orange,yellow,#429842,#7c7caa,#9071a6,violet);
+  /* Standard syntax */
+  background: linear-gradient(to right, #bb7e7e,orange,yellow,#429842,#7c7caa,#9071a6,violet); 
     margin-top: 0;
-    padding: 20px 20px 20px 40px;
+    padding: 1px 10px 1px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 34pt;
+    text-decoration: none;
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 60px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
 }
 
 .date {
@@ -16,7 +33,6 @@
     margin-bottom: 70px;
 }
 
-h1 a {
-    color: #FCA205;
-    font-family: 'Lobster';
+.post h1 a, .post h1 a:visited {
+    color: #000000;
 }
